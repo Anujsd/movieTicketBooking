@@ -1,0 +1,63 @@
+@charset "ISO-8859-1";
+body{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.login-page{
+	width: 400px;
+	padding : 10px;
+	margin : auto;
+}
+.form{
+	position: relative;
+	z-index: 1;
+	max-width: 360px;
+	margin: 0px  auto 100px;
+	padding : 30px;
+	text-align: center;
+	background: #ccffff;
+	box-shadow: 10px 10px 5px grey;
+	border: 1px solid #BFBFBF;
+}
+.form input{
+	outline: 1;
+	padding: 15px;
+	margin : 0 0 15px 0;
+	width: 100%;
+	box-sizing: border-box;
+	font-size: 18px;
+}
+.form button{
+	text-transform: uppercase;
+	padding : 15px;
+	margin:  15 0 0 0;
+	width: 100%;
+	background: #359DB6;
+	border: 0;
+	cursor: pointer;
+	font-size: 20px;
+	color: white;
+}
+
+h1{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 30px;
+}
+
+#ch{
+	padding: 0;
+	margin : 0px;
+	width: 15px;
+	box-sizing: border-box;
+	font-size: 0px;
+}
+
+.message{
+	margin: 15px 0 0;
+	font-size: 15px;
+	color: #404040;
+}
+.form .message a{
+	color: blue;
+}

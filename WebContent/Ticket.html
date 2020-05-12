@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Book Movie</title>
+	<link rel="stylesheet" type="text/css" href="stylePaymentArea.css">
+	<script src="loginPage.js"></script>
+</head>
+<body>
+	<div class="page">
+		<div class="header">
+			<button id="home" type="button" onclick="goHomePage()">Home</button>
+			<h1>BookMovie</h1>			
+		</div>
+
+		<div class="content">
+			<div class="main">
+				<img src="images/theatre.png" alt="avatar" width="400" height="400">
+			</div>
+
+			<div class="Info">
+				<h3>Ticket</h3>
+					<ul id="ticketInfo">
+						<li><p id="name">name</p></li>
+						<li><p id="movie">movie name</p></li>
+						<li><p id="seats">number of seats</p></li>
+						<li><p id="price">total price</p></li>
+						<li><p id="theatre">theatre location</p></li>
+						<li><p id="time">theatre timing</p></li>
+					</ul>
+					<button onClick="showData()">Get Ticket</button>
+					<button onClick="print()">Print Ticket</button>
+			</div>
+		</div>
+		<div class="footer">
+			copyright &copy; 2020 anuj dube.
+		</div>
+	</div>
+</body>
+</html>

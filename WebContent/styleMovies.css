@@ -1,0 +1,73 @@
+body{
+	background-image: url("images/background.jpg");
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.movie-page{
+	background: white;
+	margin: auto;
+	width: 900px;
+	border-style: double;
+}
+
+.header{
+	background: #063458;
+	padding: 10px;
+	border-style: outset;
+}
+
+.content{
+	padding: 10px;
+}
+
+.main{
+	width: 200px;
+	float: left;
+	border-style: outset;
+}
+
+.trailer{
+	width: 600px;
+	float: right;
+}
+
+.footer{
+	clear: both;
+	padding: 10px;
+	background-color: #16E6FF;
+	color: white;
+	text-align: right; 
+}
+
+.header h1{
+	color: white;
+	text-align: center;
+	font-size:50px;
+}
+
+.main img{
+	padding: 20px;
+	position: relative;
+}
+
+button{
+	padding: 10px;
+	text-transform: uppercase;
+	margin-top: 30px;
+	background: #359DB6;
+	cursor: pointer;
+	color: white;
+	border-style: outset;
+}
+
+#home{
+	padding: 10px;
+	text-transform: uppercase;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	background: #359DB6;
+	cursor: pointer;
+	color: white;
+	float: left;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Book Movie</title>
+	<link rel="stylesheet" type="text/css" href="stylePaymentArea.css">
+	<script src="loginPage.js"></script>
+</head>
+<body>
+	<div class="page">
+		<div class="header">
+			<button id="home" type="button" onclick="goHomePage()">Home</button>
+			<h1>BookMovie</h1>
+		</div>
+
+		<div class="content">
+			<div class="main">
+				<img src="images/paymentLogo.png" alt="avatar" width="400" height="250">
+			</div>
+
+			<div class="Info">
+				<h3>Payment Area</h3>
+					<ul id="cardInfo">
+						<li><p id="p1"></p></li>
+						<li><input id="nameOnCard" type="text" placeholder="Name on card"/></li>
+						<li><input id="cardNumber" type="text" placeholder="Card Number"/></li>
+						<li><input id="expData" type="text" placeholder="Exp"/></li>
+						<li><input id="cvv" type="password" placeholder="Cvv"/></li>
+					</ul>
+					<button onclick="goToTicket()">Pay</button>
+			</div>
+		</div>
+		<div class="footer">
+			copyright &copy; 2020 anuj dube.
+		</div>
+
+	</div>
+</body>
+</html>

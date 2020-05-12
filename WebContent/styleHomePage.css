@@ -1,0 +1,120 @@
+body{
+	background-image: url("images/background.jpg");
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.home-page{
+	background: #ffffff;
+	margin: auto;
+	width: 900px;
+	border-style: double;
+}
+
+.header{
+	background: #063458;
+	padding: 10px;
+	border-style: outset;
+}
+
+.content{
+	padding: 10px;
+}
+
+.trending{
+	width: 180px;
+	float: left;
+	border-style: outset;
+}
+
+.main{
+	width: 600px;
+	float: right;
+}
+
+.footer{
+	clear: both;
+	padding: 10px;
+	background-color: #16E6FF;
+	color: white;
+	text-align: right; 
+}
+
+.header h1{
+	color: white;
+	text-align: center;
+	font-size:50px;
+}
+
+.header button{
+	padding: 10px;
+	text-transform: uppercase;
+	margin-left: 10px;
+	background: #359DB6;
+	cursor: pointer;
+	color: white;
+	border-style: outset;
+}
+
+h2{
+	color: #063458;
+	text-align: center;
+	font-size:30px;
+	
+}
+
+.main img{
+	padding: 20px;
+	position: relative;
+	border-style: groove;
+}
+
+table
+{
+	 border: 1px solid black;
+	 margin-left:auto; 
+     margin-right:auto;
+} 
+td {
+		  border: 1px solid black;
+		  border-style : inset ;
+		  padding:5px;
+		  background-color: yellow;
+}
+
+th{
+	 border: 1px solid black;
+		  padding:5px;
+		  border-style : outset ;
+		  background-color: orange;
+}
+
+.delup{
+	position: relative;
+	z-index: 1;
+	max-width: 360px;
+	margin: 0px  auto 100px;
+	padding : 30px;
+	text-align: center;
+	background: #ccffff;
+	box-shadow: 10px 10px 5px grey;
+	border: 1px solid #BFBFBF;
+}
+.delup input{
+	outline: 1;
+	padding: 15px;
+	margin : 0 0 15px 0;
+	width: 100%;
+	box-sizing: border-box;
+	font-size: 18px;
+}
+.delup button{
+	text-transform: uppercase;
+	padding : 15px;
+	margin:  15 0 0 0;
+	width: 100%;
+	background: #359DB6;
+	border: 0;
+	cursor: pointer;
+	font-size: 20px;
+	color: white;
+}

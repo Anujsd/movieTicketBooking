@@ -1,0 +1,166 @@
+body{
+  background-image: url("images/background.jpg");
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.seating-page{
+	background: white;
+	margin: auto;
+	width: 900px;
+  border-style: double;
+}
+
+.header{
+	background: #063458;
+	padding: 10px;
+  border-style: outset;
+}
+
+.footer{
+	clear: both;
+	padding: 10px;
+	background-color: #16E6FF;
+	color: white;
+	text-align: right; 
+}
+
+.header h1{
+	color: white;
+	text-align: center;
+  font-size:50px;
+}
+
+.content{
+	padding: 10px;
+}
+
+.main{
+	width: 180px;
+	float: left;
+  border-style: outset;
+}
+
+#Numseats{
+	width:40px;
+}
+
+button{
+	padding: 10px;
+	text-transform: uppercase;
+	margin-top : 20px ;
+	margin-left : 30px ;
+	margin-bottom : 30px ;
+	background: #359DB6;
+	cursor: pointer;
+	color: white;
+	float: left;
+  border-style: outset;
+}
+
+.seatStructure{
+	width: 600px;
+	float: right;
+}
+
+.screen
+{
+  width:100%;
+  height:20px;
+  background:#4388cc;
+  color:#fff;
+  font-size:15px;
+}
+
+.smallBox::before
+{
+  content:".";
+  width:15px;
+  height:15px;
+  float:left;
+  margin-right:10px;
+}
+
+.greenBox::before
+{
+  content:"";
+  background:Green;
+}
+
+.blueBox::before
+{
+  content:"";
+  background:Blue;
+}
+
+.emptyBox::before
+{
+  box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, .3), 0px 1px 0px 0px rgba(255, 255, 255, .8);
+  background-color:#ccc;
+}
+
+.seatGap
+{
+  width:40px;
+}
+
+.seatVGap
+{
+  height:40px;
+}
+
+table
+{
+  text-align:center;
+}
+
+
+.Displaytable
+{
+  text-align:center;
+}
+.Displaytable td, .Displaytable th {
+    border: 1px solid;
+    text-align: left;
+}
+
+textarea
+{
+  border:none;
+  background:transparent;
+}
+
+
+
+input[type=checkbox] {
+    width:0px;
+    margin-right:18px;
+}
+
+input[type=checkbox]:before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    vertical-align:middle;
+    text-align: center;
+    box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, .3), 0px 1px 0px 0px rgba(255, 255, 255, .8);
+    background-color:#ccc;
+}
+
+input[type=checkbox]:checked:before {
+    background-color:blue;
+    font-size: 15px;
+}
+
+
+#home{
+  padding: 10px;
+  text-transform: uppercase;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  background: #359DB6;
+  cursor: pointer;
+  color: white;
+  float: left;
+}
